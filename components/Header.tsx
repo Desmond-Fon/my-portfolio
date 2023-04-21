@@ -27,7 +27,7 @@ const Header = () => {
 
           <div className="absolute bottom-32 left-[-50px] flex items-center">
             <div className="w-[100px] h-[2px] bg-white"></div>
-            <Link href="/">
+            <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=share_link">
               <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-white bg-black text-white tracking-[4px]">
                 GET MY CV
               </button>
