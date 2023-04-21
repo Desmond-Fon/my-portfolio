@@ -7,7 +7,7 @@ const Header = () => {
         <div className="w-[50%] text-start px-20  pb-32">
           <p className="text-red-700 tracking-[3px] text-[18px]">HELLO</p>
           <h1 className="font-sora text-[52px] leading-[74px] text-lightGray font-bold">
-            I'm Desmond Fon, a web developer from Nigeria
+            I'm Desmond Fon, a web developer from Nigeria.
           </h1>
 
           <div className="flex justify-start items-center gap-5 mt-10">

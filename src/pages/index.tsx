@@ -1,10 +1,7 @@
 import Head from 'next/head';
 import Nav from '../../components/Nav';
 import Header from '../../components/Header';
-import Image from 'next/image';
-import Link from 'next/link';
 import About from '../../components/About';
-// import Dez from '../../public/images/dez.JPG';
 
 
 
