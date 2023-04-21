@@ -1,18 +1,48 @@
 import Link from "next/link";
 
 const Header = () => {
-    return (<div className="flex justify-between mt-[19px] items-center">
-        <p className="text-[30px] leading-[46px] text-darkGray font-sora font-bold">Dez-folio</p>
+  return (
+    <>
+      <div id="top" className="flex h-[800px] justify-between items-end bg-gray-200 pt-24 mb-32">
+        <div className="w-[50%] text-start px-20  pb-32">
+          <p className="text-red-700 tracking-[3px] text-[18px]">HELLO</p>
+          <h1 className="font-sora text-[52px] leading-[74px] text-lightGray font-bold">
+            I'm Desmond Fon, a web developer from Nigeria
+          </h1>
 
-        <div>
-            <ul className="flex justify-between gap-8 font-mulish text-[14px] text-linkColor">
-                <li><Link href='/'>Home</Link></li>
-                <li><Link href='/project'>Project</Link></li>
-                <li><Link href='/aboutMe'>About me</Link></li>
-                <li><Link href='/contact'>Contact</Link></li>
-            </ul>
+          <div className="flex justify-start items-center gap-5 mt-10">
+            <Link href="#about-section">
+              <button className="w-[200px] h-[55px] text-[12px] bg-black text-white tracking-[4px]">
+                MORE ABOUT ME
+              </button>
+            </Link>
+            <Link href="#contact-section">
+              <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-black text-black tracking-[4px]">
+                GET IN TOUCH
+              </button>
+            </Link>
+          </div>
         </div>
-    </div>);
-}
+        <div className="w-[50%] relative">
+
+          <div className="absolute bottom-32 left-[-50px] flex items-center">
+            <div className="w-[100px] h-[2px] bg-white"></div>
+            <Link href="/">
+              <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-white bg-black text-white tracking-[4px]">
+                GET MY CV
+              </button>
+            </Link>
+          </div>
+
+          <img
+            src="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682092278/mee_g394i7.jpg"
+            alt=""
+          />
+        </div>
+
+      </div>
+    </>
+  );
+};
 
 export default Header;
