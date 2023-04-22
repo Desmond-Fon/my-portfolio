@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Nav from '../../components/Nav';
 import Header from '../../components/Header';
 import About from '../../components/About';
+import Work from '../../components/Work';
 
 
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Nav />
       <Header />
       <About />
+      <Work />
     </div>
   )
 }

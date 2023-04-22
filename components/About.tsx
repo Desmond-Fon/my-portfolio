@@ -4,7 +4,7 @@ const About = () => {
             <div className=" relative z-0">
                 <p className="font-800 text-9xl opacity-10 tracking-wide">01</p>
                 <div className="absolute inset-0 z-10 top-10">
-                    <p className="text-5xl font-bold tracking-widest font-sora text-lightGray">About Me</p>
+                    <p className="text-5xl font-bold tracking-widest font-sora text-lightGray">About Me.</p>
                 </div>
             </div>
 
