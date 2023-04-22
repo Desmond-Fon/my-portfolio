@@ -15,8 +15,8 @@ const Nav = () => {
     }, []);
 
     return (<div className="flex justify-center items-center ">
-        <div className={`flex justify-center items-center ${stickyNav ? 'font-sora top-0 z-50 mt-0 w-[100%] fixed' : ''} `}>
-            <div className={`flex justify-between mt-[19px] items-center bg-black h-[65px] px-8 font-sora absolute top-0 z-50  ${stickyNav ? 'font-sora top-0 z-50 mt-0 w-[100%] fixed' : 'mx-[30px] w-[90%]'} `}>
+        <div className={`flex justify-center items-center mt-0 ${stickyNav ? 'font-sora top-0 z-50 mt-0 w-[100%] fixed' : 'mx-[30px] w-[90%]'} `}>
+            <div className={`flex justify-between  items-center bg-black h-[65px] px-8 font-sora absolute top-0 z-50  ${stickyNav ? 'font-sora top-0 z-50 mt-0 w-[100%] fixed' : 'mx-[30px] w-[90%] mt-[19px]'} `}>
                 <p className="text-[30px] leading-[46px] text-white font-sora font-bold">Dez-folio.</p>
 
                 <div>
