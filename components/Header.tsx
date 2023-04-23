@@ -12,12 +12,12 @@ const Header = () => {
 
           <div className="flex justify-start items-center gap-5 mt-10">
             <Link href="#about-section">
-              <button className="w-[200px] h-[55px] text-[12px] bg-black text-white tracking-[4px] font-medium">
+              <button className="w-[200px] h-[55px] text-[12px] bg-black text-white tracking-[4px] font-medium hover:bg-red-700">
                 MORE ABOUT ME
               </button>
             </Link>
             <Link href="#contact-section">
-              <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-black text-black tracking-[4px] font-medium">
+              <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-black text-black tracking-[4px] font-medium hover:bg-black hover:text-white">
                 GET IN TOUCH
               </button>
             </Link>
@@ -29,7 +29,7 @@ const Header = () => {
           <div className="absolute bottom-32 left-[-50px] flex items-center">
             <div className="w-[100px] h-[2px] bg-white"></div>
             <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=share_link">
-              <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-white bg-black text-white tracking-[4px] font-medium">
+              <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-white bg-black text-white tracking-[4px] font-medium hover:bg-white hover:text-black">
                 GET MY CV
               </button>
             </Link>
