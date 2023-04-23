@@ -1,4 +1,5 @@
 import Card from "./Card";
+import Testimonial from "./Testimonial";
 
 
 const Work = () => {
@@ -7,7 +8,7 @@ const Work = () => {
 
   return (<div id='work-section' className="px-20 py-16">
 
-    <div className=" relative z-0">
+    <div className=" relative z-0 mb-20">
       <p className="font-800 text-9xl opacity-10 tracking-wide">02</p>
       <div className="absolute inset-0 z-10 top-10">
         <p className="text-5xl font-bold tracking-widest font-sora text-lightGray">Selected Works.</p>
@@ -32,6 +33,16 @@ const Work = () => {
 
       <Card description="Created an RGB color guesser game that gives the user a color and then gives multiple options with different RGB color codes for the user to select from. A user can toggle between easy and hard levels. It was built using React and Tailwind CSS." site='https://rgb-color-picking-game.netlify.app/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682240918/color_mllalm.png" code='https://github.com/Desmond-Fon/color-picker' />
 
+    </div>
+
+    <div>
+    <div className="flex justify-center items-center mt-32 mb-12">
+        <p className="text-3xl font-bold tracking-widest font-sora text-lightGray">Hear It From Others.</p>
+
+      </div>
+        <div>
+        <Testimonial />
+        </div>
     </div>
 
   </div>);
