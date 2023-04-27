@@ -9,15 +9,15 @@ const Contact = () => {
             </div>
         </div>
 
-        <div className="flex justify-between items-end mt-[80px] font-mulish text-[23px] gap-10 mb-24">
+        <div className="flex justify-between items-end mt-[80px] font-mulish text-[23px] gap-10 mb-12">
             <div className="text-gray-400 w-1/2">
                 <p className="mb-10">You can get in touch with me through any of my social media handles, through my phone contact, or through my email address. The links are available, do not hesitate to reach out to me any day, anytime.</p>
 
-                <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white">
+                {/* <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white">
                     <button className="w-full h-[65px] text-[16px] bg-red-600 text-white tracking-[6px] font-bold hover:bg-red-500 hover:text-white">
                         MESSAGE ME
                     </button>
-                </Link>
+                </Link> */}
 
             </div>
 
@@ -42,14 +42,30 @@ const Contact = () => {
 
                     </div>
                 </div>
-                <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=share_link">
+                {/* <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=share_link">
                     <button className="w-full h-[65px] text-[16px] border-[2px] border-white bg-black text-white tracking-[6px] font-bold hover:bg-white hover:text-black">
                         GET MY CV
                     </button>
-                </Link>
+                </Link> */}
             </div>
 
         </div>
+
+        <div className="flex justify-between items-end font-mulish text-[23px] gap-10 mb-24">
+
+            <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white w-1/2">
+                <button className="w-full h-[65px] text-[16px] bg-red-600 text-white tracking-[6px] font-bold hover:bg-red-500 hover:text-white">
+                    MESSAGE ME
+                </button>
+            </Link>
+
+            <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=share_link" className="w-1/2">
+                <button className="w-full h-[65px] text-[16px] border-[2px] border-white bg-black text-white tracking-[6px] font-bold hover:bg-white hover:text-black">
+                    GET MY CV
+                </button>
+            </Link>
+        </div>
+
         <div className="w-full h-[1px] bg-gray-600"></div>
 
         <div className="text-gray-400 pt-12 text-right flex gap-10 justify-end">

@@ -13,7 +13,7 @@ const About = () => {
 
             <div className="mt-[80px] flex
             gap-[10%] font-sora flex-wrap">
-                <div>
+                <div className='mb-[30px]'>
                     <p className="text-2xl text-gray-800 border-l-[3px] border-red-500 px-3 mb-8 font-bold">Experience</p>
                     <div className="mb-5">
                         <p className="text-xl">nHub Foundation</p>
@@ -33,7 +33,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className='mb-[30px]'>
                     <p className="text-2xl text-gray-800 border-l-[3px] border-red-500 px-3 mb-8 font-bold">Education</p>
                     <div className="mb-5">
                         <p className="text-xl">Abubakar Tafawa <br /> Balewa University,<br /> Bauchi</p>
@@ -41,7 +41,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className='mb-[30px]'>
                     <p className="text-2xl text-gray-800 border-l-[3px] border-red-500 px-3 mb-8 font-bold">Languages</p>
                     <div className="mb-5">
                         <p className="text-xl">Javascript</p>
