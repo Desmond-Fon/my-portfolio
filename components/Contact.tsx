@@ -9,9 +9,9 @@ const Contact = () => {
             </div>
         </div>
 
-        <div className="flex justify-between items-end mt-[80px] font-mulish text-[23px] gap-10">
+        <div className="flex justify-between items-end mt-[80px] font-mulish text-[23px] gap-10 mb-24">
             <div className="text-gray-400 w-1/2">
-                <p className="mb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim illo quisquam nobis laudantium dolorum, accusantium nihil veniam, cumque beatae vel sapiente, aperiam recusandae reprehenderit odio placeat mollitia architecto error quae!</p>
+                <p className="mb-10">You can get in touch with me through any of my social media handles, through my phone contact, or through my email address. The links are available, do not hesitate to reach out to me any day, anytime.</p>
 
                 <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white">
                     <button className="w-full h-[65px] text-[16px] bg-red-600 text-white tracking-[6px] font-bold hover:bg-red-500 hover:text-white">
@@ -38,7 +38,7 @@ const Contact = () => {
 
                         <p className="text-[20px]"><Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white">desmondfon@yahoo.com</Link></p>
                         <p className="text-[20px]"><Link target="_blank" href={"mailto:dezmondfon@gmail.com?subject=Mail to Fon"} className="hover:text-white">dezmondfon@gmail.com</Link></p>
-                        <p className="text-[20px]">+234 701 711 1908</p>
+                        <p className="text-[20px]"><Link href="tel:07017111908" className="hover:text-white">+234 701 711 1908</Link></p>
 
                     </div>
                 </div>
@@ -48,8 +48,14 @@ const Contact = () => {
                     </button>
                 </Link>
             </div>
-        </div>
 
+        </div>
+        <div className="w-full h-[1px] bg-gray-600"></div>
+
+        <div className="text-gray-400 pt-12 text-right flex gap-10 justify-end">
+            <p>© Copyright Hudson 2023</p>
+            <p> Built by Fon Desmond 😁❤️</p>
+        </div>
 
     </div>);
 }
