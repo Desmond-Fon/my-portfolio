@@ -6,7 +6,7 @@ const Work = () => {
 
 
 
-  return (<div id='work-section' className="px-20 py-16">
+  return (<div id='work-section' className="px-5 lg:px-20 py-7 lg:py-16">
 
     <div className=" relative z-0 mb-20">
       <p className="font-800 text-9xl opacity-10 tracking-wide">02</p>
@@ -15,7 +15,7 @@ const Work = () => {
       </div>
     </div>
 
-    <div className="flex justify-between flex-wrap">
+    <div className="flex gap-4 lg:gap-0 justify-center lg:justify-between flex-wrap">
 
       <Card description="Implemented the front-end part of nHub Nigeria's official website. It was implemented using react and CSS." site='https://nhubnigeria.ng/' image='https://res.cloudinary.com/dvikxcdh3/image/upload/v1682239281/ScreenShot_Tool_-20230405063538_asgt9z.png' />
 
@@ -36,13 +36,13 @@ const Work = () => {
     </div>
 
     <div>
-    <div className="flex justify-center items-center mt-32 mb-12">
+      <div className="flex justify-center items-center mt-32 mb-12">
         <p className="text-3xl font-bold tracking-widest font-sora text-lightGray">Hear It From Others.</p>
 
       </div>
-        <div>
+      <div>
         <Testimonial />
-        </div>
+      </div>
     </div>
 
   </div>);
