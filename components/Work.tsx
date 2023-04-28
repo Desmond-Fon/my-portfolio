@@ -6,12 +6,12 @@ const Work = () => {
 
 
 
-  return (<div id='work-section' className="px-5 lg:px-20 py-7 lg:py-16">
+  return (<div id='work-section' className="px-5 md:px-10 lg:px-20 pt-7 pb-7 md:pb-16 lg:pt-16 lg:pb-16">
 
     <div className=" relative z-0 mb-20">
-      <p className="font-800 text-9xl opacity-10 tracking-wide">02</p>
-      <div className="absolute inset-0 z-10 top-10">
-        <p className="text-5xl font-bold tracking-widest font-sora text-lightGray">Selected Works.</p>
+      <p className="font-800 text-8xl md:text-9xl opacity-10 tracking-wide">02</p>
+      <div className="absolute inset-0 z-10 top-8 md:top-10">
+        <p className="text-3xl md:text-5xl font-bold tracking-widest font-sora text-lightGray">Selected Works.</p>
       </div>
     </div>
 
@@ -37,7 +37,7 @@ const Work = () => {
 
     <div>
       <div className="flex justify-center items-center mt-32 mb-12">
-        <p className="text-3xl font-bold tracking-widest font-sora text-lightGray">Hear It From Others.</p>
+        <p className="text-3xl font-bold tracking-widest font-sora text-lightGray text-center lg:text-left">Hear It From Others.</p>
 
       </div>
       <div>

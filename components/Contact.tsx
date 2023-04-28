@@ -1,16 +1,16 @@
 import Link from "next/link";
 
 const Contact = () => {
-    return (<div id="contact-section" className="px-20 py-16 bg-black pt-32">
+    return (<div id="contact-section" className="px-5 md:px-10 lg:px-20 py-16 bg-black pt-32">
         <div className=" relative z-0">
-            <p className="font-800 text-9xl opacity-10 tracking-wide text-white">03</p>
-            <div className="absolute inset-0 z-10 top-10">
-                <p className="text-5xl font-bold tracking-widest font-sora text-white">Get In Touch.</p>
+            <p className="font-800 text-8xl md:text-9xl opacity-10 tracking-wide text-white">03</p>
+            <div className="absolute inset-0 z-10 top-8 md:top-10">
+                <p className="text-3xl md:text-5xl font-bold tracking-widest font-sora text-white">Get In Touch.</p>
             </div>
         </div>
 
-        <div className="flex justify-between items-end mt-[80px] font-mulish text-[23px] gap-10 mb-12">
-            <div className="text-gray-400 w-1/2">
+        <div className="flex justify-start items-start lg:justify-between lg:items-end mt-[80px] font-mulish text-[18px] md:text-[22px] lg:text-[23px] leading-6 md:leading-9 gap-10 mb-12 flex-col lg:flex-row">
+            <div className="text-gray-400 lg:w-1/2">
                 <p className="mb-10">You can get in touch with me through any of my social media handles, through my phone contact, or through my email address. The links are available, do not hesitate to reach out to me any day, anytime.</p>
 
                 {/* <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white">
@@ -21,8 +21,8 @@ const Contact = () => {
 
             </div>
 
-            <div className="text-gray-400 w-1/2">
-                <div className="flex justify-start gap-32 mb-10">
+            <div className="text-gray-400 lg:w-1/2">
+                <div className="flex flex-col lg:flex-row lg:justify-end gap-10 lg:gap-32 mb-10">
                     <div>
                         <p className="font-sora pb-5 text-white">Follow Me</p>
 
@@ -51,15 +51,15 @@ const Contact = () => {
 
         </div>
 
-        <div className="flex justify-between items-end font-mulish text-[23px] gap-10 mb-24">
+        <div className="flex justify-center lg:justify-between items-end font-mulish text-[23px] gap-10 mb-24 flex-col lg:flex-row">
 
-            <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white w-1/2">
+            <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white w-full lg:w-1/2">
                 <button className="w-full h-[65px] text-[16px] bg-red-600 text-white tracking-[6px] font-bold hover:bg-red-500 hover:text-white">
                     MESSAGE ME
                 </button>
             </Link>
 
-            <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view" className="w-1/2">
+            <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view" className="w-full lg:w-1/2">
                 <button className="w-full h-[65px] text-[16px] border-[2px] border-white bg-black text-white tracking-[6px] font-bold hover:bg-white hover:text-black">
                     GET MY CV
                 </button>
@@ -68,7 +68,7 @@ const Contact = () => {
 
         <div className="w-full h-[1px] bg-gray-600"></div>
 
-        <div className="text-gray-400 pt-12 text-right flex gap-10 justify-end">
+        <div className="text-gray-400 pt-12 lg:text-right flex gap-5 lg:gap-10 justify-start flex-col lg:flex-row lg:justify-end">
             <p>© Copyright Hudson 2023</p>
             <p> Built by Fon Desmond 😁❤️</p>
         </div>

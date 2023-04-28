@@ -1,6 +1,6 @@
 const About = () => {
     return (<>
-        <div id="about-section" className="px-5 lg:px-20 pt-16 pb-7 lg:pb-16">
+        <div id="about-section" className="px-5 md:px-10 lg:px-20 pt-16 pb-7 lg:pb-16">
             <div className=" relative z-0">
                 <p className="font-800 text-8xl md:text-9xl opacity-10 tracking-wide">01</p>
                 <div className="absolute inset-0 z-10 top-8 md:top-10">
