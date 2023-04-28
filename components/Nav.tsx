@@ -5,7 +5,27 @@ import { useRouter } from 'next/router';
 const Nav = () => {
 
     const [stickyNav, setStickyNav] = useState<boolean>(false);
+    const [isOpen, setIsOpen] = useState(true);
     const router = useRouter();
+
+    const toggleOpen = () => {
+        setIsOpen(!isOpen);
+    };
+
+    let menu;
+
+    if (!isOpen) {
+        menu = (
+            //   <div className="text-white flex flex-col pt-[64px]">
+            <ul className=" font-mulish text-[16px] text-gray-400 my-10">
+                <li className={`${router.asPath == "/#top" ? "text-white" : "hover:text-white"} text-[20px] my-3`}><Link href='/#top' onClick={toggleOpen}>Intro</Link></li>
+                <li className={`${router.asPath == "/#about-section" ? "text-white" : "hover:text-white"} text-[20px] my-3`}><Link href='#about-section' onClick={toggleOpen}>About</Link></li>
+                <li className={`${router.asPath == "/#work-section" ? "text-white" : "hover:text-white"} text-[20px] my-3`}><Link href='#work-section' onClick={toggleOpen}>Work</Link></li>
+                <li className={`${router.asPath == "/#contact-section" ? "text-white" : "hover:text-white"} text-[20px] my-3`}><Link href='#contact-section' onClick={toggleOpen}>Contact</Link></li>
+            </ul>
+            //   </div>
+        );
+    }
 
     useEffect(() => {
         window.onscroll = () => {
@@ -28,7 +48,21 @@ const Nav = () => {
                     </ul>
 
                     <div className="lg:hidden">
-                        <img src="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682614431/white-hamburger-menu-icon-24_sq2li8.png" alt="" width="55px" />
+                        {isOpen ?
+                            (<img src="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682696122/icon-hamburger_zcdqve.svg" alt="" width="20px" onClick={toggleOpen} />) :
+                            // (<img src="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682696122/icon-close_dddboo.svg" alt="" width="20px" onClick={toggleOpen} />)
+                            (<div className="absolute right-[0] top-[0px] h-[100%] w-full py-[33px] px-[26px] z-20">
+                                <div className="flex justify-end">
+                                    <img src="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682696122/icon-close_dddboo.svg" alt="" width="20px" onClick={toggleOpen} />
+                                </div>
+                                {/* <div className="flex justify-end"> */}
+                                <div className="  w-full bg-black py-[10px] px-[26px] ">
+                                    {/* </div> */}
+                                    {menu}
+
+                                </div>
+                            </div>)
+                        }
                     </div>
                 </div>
             </div>
