@@ -169,7 +169,7 @@ export default function Testimonial() {
                                 </div>
                             </div>
 
-                            <div className="text-left md:text-[16px] lg:text-[18px]]">
+                            <div className="text-left md:text-[16px] lg:text-[18px]">
                                 <p>Desmond you are really good at what you do and in a short time you have been able to amass so much knowledge and that is impressive. I love your attention to detail and how you pull off complex designs with ease.
                                     Well done I enjoyed working with you 👍.</p>
                             </div>
@@ -187,7 +187,7 @@ export default function Testimonial() {
                                 </div>
                             </div>
 
-                            <div className="text-left md:text-[16px] lg:text-[18px]]">
+                            <div className="text-left md:text-[16px] lg:text-[18px]">
                                 <p> I started my tech journey in September 2022. It wasn&apos;t easy but I was lucky to have Desmond there because he wasn&apos;t only a friend but also a teacher. He is a really talented programmer and knows what he is doing.</p>
                             </div>
                         </div>
@@ -204,7 +204,7 @@ export default function Testimonial() {
                                 </div>
                             </div>
 
-                            <div className="text-left md:text-[16px] lg:text-[18px]]">
+                            <div className="text-left md:text-[16px] lg:text-[18px]">
                                 <p>You are determined and you definitely understand what you do. You have taught me a couple of times and without doubt, I was able to understand, that only shows that you are good at what you do.</p>
                             </div>
                         </div>
@@ -221,7 +221,7 @@ export default function Testimonial() {
                                 </div>
                             </div>
 
-                            <div className="text-left md:text-[16px] lg:text-[18px]]">
+                            <div className="text-left md:text-[16px] lg:text-[18px]">
                                 <p>Desmond isn't just a coding machine - he's also a great team player who knows how to keep things fun and lighthearted. If you want a frontend developer who can bring technical expertise and a great sense of humor to the table, then Desmond is your guy.</p>
                             </div>
                         </div>
@@ -238,7 +238,7 @@ export default function Testimonial() {
                                 </div>
                             </div>
 
-                            <div className="text-left md:text-[16px] lg:text-[18px]]">
+                            <div className="text-left md:text-[16px] lg:text-[18px]">
                                 <p>Desmond is a dedicated web developer who has a never give up attitude and is always ready to take on new challenges to get his task done.</p>
                             </div>
                         </div>
