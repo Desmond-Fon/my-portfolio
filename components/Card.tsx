@@ -28,7 +28,7 @@ const Card = ({ description, site, code, image }: CardProps) => {
           <div className="text-center flex justify-center items-center gap-4">
             <Link href={site} target="_blank"><button className="w-[100px] h-[30px] lg:w-[150px] lg:h-[40px] text-[12px] bg-white text-black tracking-[4px] font-medium  hover:bg-red-600 hover:text-white">Live Site</button></Link>
             {
-              code && <Link href={code || ''} target="_blank"><button className="w-[100px] h-[30px] lg:w-[150px] lg:h-[30px] text-[12px] border-[2px] border-white text-white tracking-[4px] font-medium hover:bg-black hover:text-white">See Code</button></Link>
+              code && <Link href={code || ''} target="_blank"><button className="w-[100px] h-[30px] lg:w-[150px] lg:h-[40px] text-[12px] border-[2px] border-white text-white tracking-[4px] font-medium hover:bg-black hover:text-white">See Code</button></Link>
             }
           </div>
 
