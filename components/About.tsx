@@ -86,9 +86,6 @@ const About = () => {
                         <p className="text-[16px] md:text-[18px] lg:text-xl">Figma</p>
                     </div>
                     <div className="mb-5">
-                        <p className="text-[16px] md:text-[18px] lg:text-xl"></p>
-                    </div>
-                    <div className="mb-5">
                         <p className="text-[16px] md:text-[18px] lg:text-xl">Bootstrap</p>
                     </div>
                 </div>

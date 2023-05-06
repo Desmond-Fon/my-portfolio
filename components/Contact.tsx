@@ -15,13 +15,6 @@ const Contact = () => {
                 </p>
                 <p className="mb-2">I'm always looking for new opportunities to collaborate with like-minded individuals and companies. If you have a project in mind, or simply want to say hello, please don't hesitate to get in touch with me.</p>
                 <p className="mb-10">I'm confident that my skills and experience will be a valuable asset to any project, and I look forward to hearing from you soon.</p>
-
-                {/* <Link target="_blank" href={"mailto:desmondfon@yahoo.com?subject=Mail to Desmond"} className="hover:text-white">
-                    <button className="w-full h-[65px] text-[16px] bg-red-600 text-white tracking-[6px] font-bold hover:bg-red-500 hover:text-white">
-                        MESSAGE ME
-                    </button>
-                </Link> */}
-
             </div>
 
             <div className="text-gray-400 lg:w-1/2">
@@ -45,11 +38,6 @@ const Contact = () => {
 
                     </div>
                 </div>
-                {/* <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=share_link">
-                    <button className="w-full h-[65px] text-[16px] border-[2px] border-white bg-black text-white tracking-[6px] font-bold hover:bg-white hover:text-black">
-                        GET MY CV
-                    </button>
-                </Link> */}
             </div>
 
         </div>
