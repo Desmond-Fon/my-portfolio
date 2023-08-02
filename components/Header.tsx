@@ -37,7 +37,7 @@ const Header = () => {
 
           <div className="lg:hidden relative">
             <div className="w-[25px] h-[2px] bg-white absolute top-[26px] left-2"></div>
-            <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=share_link" className="mt-24">
+            <Link target="_blank" href="https://drive.google.com/file/d/1i1-E1eoDzjL0nY_phL6cgkhBxITpO5dS/view?usp=sharing" className="mt-24">
               <button className="w-[200px] h-[55px] text-[12px] text-white tracking-[4px] font-bold hover:bg-white hover:text-black">
                 GET MY CV
               </button>
