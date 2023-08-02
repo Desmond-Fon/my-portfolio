@@ -28,7 +28,7 @@ const Header = () => {
 
           <div className="hidden absolute bottom-[185px] left-[-50px] lg:flex items-center">
             <div className="w-[100px] h-[2px] bg-white"></div>
-            <Link target="_blank" href="https://drive.google.com/file/d/1Lk2OjKKvsi5Dl7Td3XbTTN5WA1tMXgH8/view?usp=sharing">
+            <Link target="_blank" href="https://drive.google.com/file/d/1i1-E1eoDzjL0nY_phL6cgkhBxITpO5dS/view?usp=sharing">
               <button className="w-[200px] h-[55px] text-[12px] border-[2px] border-white bg-black text-white tracking-[4px] font-medium hover:bg-white hover:text-black">
                 GET MY CV
               </button>
