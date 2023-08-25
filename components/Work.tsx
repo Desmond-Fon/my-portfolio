@@ -25,13 +25,15 @@ const Work = () => {
 
       <Card description="Collaborated with a developer to create a website that allowed users to track their goods or service in transit. Each user needs a unique tracking ID to see the current progress location of their parcel. It was implemented using HTML, CSS, and vanilla javascript." site='https://spinc-crystal.netlify.app/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682239570/spinc_mtrhmz.png" code='https://github.com/Desmond-Fon/Shipper-App' />
 
-      <Card description="Created a website where users can check out and search for any kind of movie or TV series. Used an API from 'The Movie Database' to fetch the movie data. It was built using React and Tailwind CSS." site='https://movie-website-alpha.vercel.app/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682239743/movie_yp8fil.png" code="https://github.com/Desmond-Fon/movie-website" />
+      <Card description="Built the frontend aspect of a photography website, which
+included an overview, a gallery, a contact section and booking service. It was built using React and Tailwind CSS." site='https://ymastudios.live/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1692922574/ScreenShot_Tool_-20230825011422_fvqitz.png" />
 
-      <Card description="Built a website where a user can view all countries, search for a particular country, or filter countries by continent. A user can also see more information about a country by clicking on the country card. Used an API from 'REST Countries' to fetch the country data. It was built using React and Tailwind CSS." site='https://rest-country-search-app.netlify.app/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682240599/rest_bhnrvl.png" code='https://github.com/Desmond-Fon/rest-country-react' />
+      <Card description="Maintaining and upgrading the frontend aspect of the official
+website of eliest lotto." site='https://www.eliestlotto.biz/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1692922570/ScreenShot_Tool_-20230825011354_vlmnwh.png" />
 
-      <Card description="Developed a rock-paper-scissors game using React. It only allows a single player to play at a time, and it has a scoreboard that keeps a record of the current score of the player. It was built using React and tailwind CSS." site='https://desmond-fon.github.io/rock-paper-scissors-react/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682239934/rock_rqiftx.png" code='https://github.com/Desmond-Fon/rock-paper-scissors-react' />
+      <Card description="Collaborated with a developer to build a site that registers business names, companies and incorporation for users. It accepts payment in cash and crypto. It was built using React and tailwind CSS." site='https://sociabrander.netlify.app' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1692922575/ScreenShot_Tool_-20230825011443_eevbmx.png" />
 
-      <Card description="Created an RGB color guesser game that gives the user a color and then gives multiple options with different RGB color codes for the user to select from. A user can toggle between easy and hard levels. It was built using React and Tailwind CSS." site='https://rgb-color-picking-game.netlify.app/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1682240918/color_mllalm.png" code='https://github.com/Desmond-Fon/color-picker' />
+      <Card description="Supervised and contributed to the building of nHub Foundation website. It was built using react and tailwind CSS." site='https://nhubfoundation.org/' image="https://res.cloudinary.com/dvikxcdh3/image/upload/v1692923408/ScreenShot_Tool_-20230825012759_trt9rg.png" />
 
     </div>
 
