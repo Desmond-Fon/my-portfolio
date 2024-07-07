@@ -8,7 +8,7 @@ const About = () => {
                 </div>
             </div>
 
-            <p className="mt-8 lg:mt-14 text-[16px] md:text-[20px] lg:text-[23px] leading-6 lg:leading-9 font-mulish">My name is Fon Desmond Gwom. I am currently pursuing a degree in Computer Science, with a focus on frontend development. Through my coursework, I have gained experience in HTML, CSS, JavaScript, and various frontend frameworks and libraries such as React, Next JS, tailwind CSS, chakra UI. I have also completed several personal projects that have allowed me to hone my skills and gain practical experience in building responsive and user-friendly web applications.</p>
+            <p className="mt-8 lg:mt-14 text-[16px] md:text-[20px] lg:text-[23px] leading-6 lg:leading-9 font-mulish">My name is Fon Desmond Gwom. I am currently pursuing a degree in Computer Science, with a focus on frontend development. Through my coursework, I have gained experience in HTML, CSS, JavaScript, Typescript, and various frontend frameworks and libraries such as React, Next JS, tailwind CSS, chakra UI. I have also completed several personal projects and organizational projects that have allowed me to hone my skills and gain practical experience in building responsive and user-friendly web applications.</p>
             <p className="mt-8 lg:mt-14 text-[16px] lg:text-[23px] md:text-[20px] leading-6 lg:leading-9 font-mulish">Furthermore, I am highly proficient in using various frontend tools and technologies, such as Git and Github, Webpack, and Babel, to optimize website performance and enhance user experience. I am also familiar with Agile methodologies and have experience working in collaborative environments using tools such as Jira, Trello and Asana. I am a fast learner, able to work independently as well as in a team, and always willing to go the extra mile to ensure that projects are completed on time and to the highest quality standards.</p>
 
             <div className="mt-[80px] flex
@@ -19,9 +19,13 @@ const About = () => {
                         <p className="text-[16px] md:text-[18px] lg:text-xl">nHub Foundation</p>
                         <p className="text-gray-500">Intern</p>
                     </div>
+                     <div className="mb-5">
+                        <p className="text-[16px] md:text-[18px] lg:text-xl">Mustard Nerd</p>
+                        <p className="text-gray-500">Frontend Developer</p>
+                    </div>
                     <div className="mb-5">
-                        <p className="text-[16px] md:text-[18px] lg:text-xl">nHub Foundation</p>
-                        <p className="text-gray-500">Tutor (SevoCoder)</p>
+                        <p className="text-[16px] md:text-[18px] lg:text-xl">Infisane</p>
+                        <p className="text-gray-500">Frontend Developer</p>
                     </div>
                     <div className="mb-5">
                         <p className="text-[16px] md:text-[18px] lg:text-xl">nHub Nigeria</p>
