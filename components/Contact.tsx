@@ -50,7 +50,7 @@ const Contact = () => {
                 </button>
             </Link>
 
-            <Link target="_blank" href="https://drive.google.com/file/d/1i1-E1eoDzjL0nY_phL6cgkhBxITpO5dS/view?usp=sharing" className="w-full lg:w-1/2">
+            <Link target="_blank" href="https://drive.google.com/file/d/1-x0vId_EUedT0p5x80eTi0KJpCMk7aNn/view?usp=sharing" className="w-full lg:w-1/2">
                 <button className="w-full h-[65px] text-[16px] border-[2px] border-white bg-black text-white tracking-[6px] font-bold hover:bg-white hover:text-black">
                     GET MY CV
                 </button>
